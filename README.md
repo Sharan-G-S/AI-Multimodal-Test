@@ -1,4 +1,8 @@
-# Cognitive Multimodal AI Agent - Test
+# Cognitive Multimodal AI Agent
+
+> **A multimodal AI agent is an advanced artificial intelligence system that can process, understand, and generate information across multiple data types (modalities) simultaneously, like text, images, audio, and video, giving it a more human-like, holistic perception of the world to perform complex tasks, learn, and act autonomously.**
+
+---
 
 FastAPI backend providing multimodal analysis (text/image/audio/video) and vector memory. Uses mock models by default to run light-weight locally.
 
@@ -33,5 +37,6 @@ API endpoints:
 - Mock mode is on by default (`use_mock_models=True`). To use real models, set `use_mock_models=False` in `backend/app/core/config.py` and install the required libraries (PyTorch, sentence-transformers, Whisper, etc.).
 - Uploaded files are stored at `backend/storage`.
 
+---
 
 Made with 💚 from Sharan
